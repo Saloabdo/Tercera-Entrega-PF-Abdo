@@ -1,0 +1,25 @@
+{
+  "name": "tercera-entrega-pf-abdo",
+  "version": "1.0.0",
+  "description": "repositorio de la tercera entrega del proyecto final para presentar en coderhouse",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/style.scss css/ style.css",
+    "watch-css": "nodemon-e scss -x\"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Saloabdo/Tercera-Entrega-PF-Abdo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Saloabdo/Tercera-Entrega-PF-Abdo/issues"
+  },
+  "homepage": "https://github.com/Saloabdo/Tercera-Entrega-PF-Abdo#readme",
+  "dependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.16"
+  }
+}
